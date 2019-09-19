@@ -8,11 +8,31 @@ body {
   top: 0px;
   left: 0px;
 }
-.logo {
+.logo1 {
   background-color: white;
-  width: 70%;
+  width: 25%;
   float: left;
-  height: 100px;
+  height: 85px;
+}
+.logo2 {
+  background-color: white;
+  width: 15%;
+  float: left;
+  height: 85px;
+}
+.logo3 {
+  background-color: white;
+  width: 15%;
+  float: left;
+  height: 85px;
+  padding-top: 10px;
+  margin-bottom: -10px
+}
+.logo4 {
+  background-color: white;
+  width: 15%;
+  float: left;
+  height: 85px;
 }
 .telefone {
   color: red;
@@ -21,48 +41,78 @@ body {
   font-size: 1em;
   background-color: white;
   width: 30%;
-  float: left;
-  height: 100px;
+  float: right;
+  height: 85px;
 }
 .topmenu {
-  background-color: #c5c5b2;
+  background-color: #0000ff;
   padding: 10px;
   float: left;
   width: 100%;
   font-size: 0.8em;
+  align-content: center;
+}
+.topmenu a {
+  color: white /*#4b566a*/ ;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+.topmenu a:hover {
+  color:  #c5c5b2;
 }
 .centralizar {
   text-align: center;
 }
 .conteudo {
-  position: static;
-  margin-top: 150px;
+  /* position: static; */
+  margin-top: 130px;
+}
+.imagem1 {
+  width: 45%;
+  float: left;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 .principal {
-  color: blue;
+  color: #4b566a;;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  width: 70%;
+  width: 30%;
   float: left;
+  padding-left: 0.5em;
+  padding-right: 1.5em;
+  margin-left: 0em;
+}
+.principal h4 {
+  font-weight: bolder;
+  text-align: justify;
 }
 .menulateral {
     background-color: #bbffff;
     width: 20%;
     float: left;
+    font-family: Verdana, Geneva, sans-serif;
+  	font-size: 0.8em;
+    font-weight: bold;
 }
-.menuitem {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 0.8em;
-	font-weight: bold;
+.menulateral ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
 }
-a {
-  color: #4b566a;
+.menulateral li {
+  font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.9em;
+  padding: 5px;
+  margin-left: 10px;
+}
+.menulateral a {
+  color: #38393b;
   text-decoration: none;
-  font-weight: bold;
-  padding: 10px;
 }
-a:hover {
+.menulateral a:hover {
   color: #0000ff;
+  text-decoration: underline;
 }
 #bottommenu {
   background-color: #000066;
@@ -71,7 +121,17 @@ a:hover {
   float: left;
   width: 100%;
 }
+#bottommenu a {
+  color: white;
+  text-decoration: none;
+}
+#bottommenu a:hover {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
 #rodape {
   float: left;
+  width: 100%;
 
 }
