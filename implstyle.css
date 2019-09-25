@@ -3,60 +3,65 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
 }
-.topopagina {
+#topopagina {
   position: fixed;
   top: 0px;
   left: 0px;
+  width: 100%;
+  margin: 0 auto;
+  min-width: 740px;
+  max-width: 1400px;
 }
-.logo1 {
+/*#logo1 {
   background-color: white;
-  width: 25%;
+  background: #ffffff url(imagens/logo1.jpg) no-repeat right;
+  width: 20%;
+  height: 85px;
   float: left;
-  height: 85px;
-}
-.logo2 {
+  min-width: 200px;
+}*/
+#banner1 {
   background-color: white;
-  width: 15%;
-  float: left;
+  background: #ffffff url(imagens/banner2.png) no-repeat left;
+  width: 100%;
   height: 85px;
+  min-width: 0px;
+  position: absolute;
+  top:0;
+  left: 0;
 }
-.logo3 {
-  background-color: white;
-  width: 15%;
-  float: left;
+
+#telefone {
+  background: url(imagens/fones1c.png) no-repeat right;
+  width: 300px;
   height: 85px;
-  padding-top: 10px;
-  margin-bottom: -10px
+  position:absolute;
+  top:0;
+  right:0;
 }
-.logo4 {
-  background-color: white;
-  width: 15%;
-  float: left;
-  height: 85px;
-}
-.telefone {
-  color: red;
-  text-align: left;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1em;
-  background-color: white;
-  width: 30%;
-  float: right;
-  height: 85px;
-}
-.topmenu {
+#menuh {
   background-color: #0000ff;
-  padding: 10px;
-  float: left;
+  padding: 0px;
+  margin-top: 85px;
   width: 100%;
   font-size: 0.8em;
-  align-content: center;
+  list-style: none;
+  min-width: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
-.topmenu a {
+#menuh li {
+  list-style: none;
+  float: left;
+}
+#menuh a {
   color: white /*#4b566a*/ ;
+  display:block;
+  padding: 0 1em;
+  line-height: 2em;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px;
 }
 .topmenu a:hover {
   color:  #c5c5b2;
@@ -66,26 +71,15 @@ body {
 }
 .conteudo {
   /* position: static; */
-  margin-top: 130px;
+  margin-top: 115px;
 }
 .imagem1 {
-  width: 45%;
+  width: 65%;
   float: left;
   margin-left: 1em;
   margin-right: 1em;
-}
-.principal {
-  color: #4b566a;;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 30%;
-  float: left;
-  padding-left: 0.5em;
-  padding-right: 1.5em;
-  margin-left: 0em;
-}
-.principal h4 {
-  font-weight: bolder;
-  text-align: justify;
+  margin-bottom: 1em;
+  background-color: white
 }
 .menulateral {
     background-color: #bbffff;
@@ -94,6 +88,7 @@ body {
     font-family: Verdana, Geneva, sans-serif;
   	font-size: 0.8em;
     font-weight: bold;
+    min-width: 240px;
 }
 .menulateral ul {
   list-style-type: none;
@@ -112,8 +107,17 @@ body {
 }
 .menulateral a:hover {
   color: #0000ff;
-  text-decoration: underline;
+  background: #bbffff url(imagens/marcador_azul.png) no-repeat left center;
+  padding-left: 20px;
 }
+.menulateral h4{
+  background-color: #2b9447;
+  color: #fff;
+  line-height: 2em;
+  margin-top: 0;
+  padding-left: 1em;
+}
+
 #bottommenu {
   background-color: #000066;
   font-family: Arial, Helvetica, sans-serif;
@@ -129,9 +133,31 @@ body {
   color: #0000ff;
   text-decoration: underline;
 }
-
 #rodape {
   float: left;
   width: 100%;
-
+}
+#contato {
+  font-family: "Trebuchet MS", sans-serif;
+}
+#contato legend {
+  font-weight: bold;
+}
+#contato label {
+  display: block;
+  cursor: pointer;
+}
+input.textolargo {
+  width: 40em;
+}
+.meiapagina {
+  width: 45%;
+  float: left;
+  margin-bottom: 1.5em;
+}
+#scontato input {
+  width: 5em;
+  height: 2em;
+  margin: 2em;
+  float: left;
 }
