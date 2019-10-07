@@ -8,25 +8,28 @@ Data de criação: 11-set-2019
 <head>
 <title>Implemed - Equipamentos Médicos</title>
 <meta charset = "UTF-8">
-<link rel = "stylesheet" href = "implstyle.css">
+<meta name="viewport" content="width=device-width", initial-scale=1, shrink-to-fit:no>
+<link rel = "stylesheet" href = "css/implstyle.css">
 <meta name = "keywords" content = "Equipamentos Médicos, Suprimentos Hospitalares" />
 <meta name = "description" content = "Importadora e distribuidora de equipamentos e suprimentos médicos e hospitalares" />
+<link rel="stylesheet" href="./bootstrap4/css/bootstrap.min.css">
+
 </head>
 
 <body>
   <h4>Deixe seus dados para entrarmos em contato.</h4>
   <form id="contato">
-    <div class="icontato">
-    <fieldset class="meiapagina">
+    <div class="form-group">
+<!--    <fieldset id="identific"> -->
       <legend>Identificação</legend>
       <label for="nome">Nome:</label>
-      <input class="textolargo" type="text" name="nome" id="nome"></input>
+      <input class="textolargo form-control form-control-sm" type="text" name="nome" id="nome" required autofocus></input>
       <label for="endereco">Endereço:</label>
-      <input class="textolargo" type="text" name="endereco" id="endereco"></input>
+      <input class="textolargo form-control form-control-sm" type="text" name="endereco" id="endereco"></input>
       <label for="cidade">Cidade:</label>
-      <input class="textolargo" type="text" name="cidade" id="cidade"></input>
+      <input class="textolargo form-control form-control-sm" type="text" name="cidade" id="cidade"></input>
       <label for="uf">UF:</label>
-      <select name="uf" id="uf">
+      <select name="uf" id="uf"  class="form-control form-control-sm">
         <option value="ac">AC</option>
         <option value="al">AL</option>
         <option value="ap">AP</option>
@@ -56,29 +59,32 @@ Data de criação: 11-set-2019
         <option value="to">TO</option>
       </select> </br>
       <label for="cep">CEP:</label>
-      <input type="text" name="cep" value="" id="cep"></input>
+      <input type="text" name="cep" value="" id="cep" class="form-control form-control-sm"></input>
       <label for="fone">Fone:</label>
-      <input type="text" name="fone" value="" id="fone"></input>
+      <input type="text" name="fone" value="" id="fone" class="form-control form-control-sm"></input>
       <label for="email">Email:</label>
-      <input class="textolargo" type="email" name="email" value="" id="email"></input>
-    </fieldset>
-    <fieldset class="meiapagina">
-      <legend>Assunto</legend>
-      <input type="radio" name="assunto" value="C">Comprar</input>
-      <input type="radio" name="assunto" value="V">Vender</input>
-      <input type="radio" name="assunto" value="T">Trocar</input>
-      <input type="radio" name="assunto" value="O">Outros</input>
-      </p>
-      <label for="equipamento">Tipo de Equipamento:</label>
-      <input class="textolargo" type="text" name="equipamento" value="" id="equipamento"></input>
+      <input class="textolargo form-control form-control-sm" type="email" name="email" value="" id="email"></input>
     </fieldset>
     </div>
 
-    <div class="mcontato">
-    <fieldset class="meiapagina">
+    <div class="form-group">
+<!--    <fieldset id="assunto"> -->
+      <legend>Assunto</legend>
+      <input class="form-control form-control-sm" type="radio" name="assunto" value="C">Comprar</input>
+      <input class="form-control form-control-sm" type="radio" name="assunto" value="V">Vender</input>
+      <input class="form-control form-control-sm" type="radio" name="assunto" value="T">Trocar</input>
+      <input class="form-control form-control-sm" type="radio" name="assunto" value="O">Outros</input>
+      </p>
+      <label for="equipamento">Tipo de Equipamento:</label>
+      <input class="textolargo form-control form-control-sm" type="text" name="equipamento" value="" id="equipamento"></input>
+    </fieldset>
+    </div>
+
+    <div class="form-group">
+    <!-- <fieldset id="mensagem">-->
       <legend>Mensagem</legend>
-      <label for="mensagem">Digite aqui sua mensagem para nós:</label>
-      <textarea name="mensagem" rows="8" cols="70" id="mensagem"></textarea>
+      <label for="mtexto">Digite aqui sua mensagem para nós:</label>
+      <textarea name="mtexto" rows="12" cols="75" id="mtexto" class="form-control form-control-sm"></textarea>
     </fieldset>
     </div>
 
@@ -88,5 +94,8 @@ Data de criação: 11-set-2019
     </div>
 
   </form>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="./bootstrap4/js/bootstrap.min.js"></script>
 
 </body>

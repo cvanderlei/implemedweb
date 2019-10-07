@@ -2,15 +2,23 @@
 <!--
 Autor: Celso Arruda Vanderlei
 Data de criação: 5-set-2019
-Última atualização: 9-set-2019
+Última atualização: 26-set-2019
 -->
-
+<html lang="pt-br">
 <head>
 <title>Implemed - Equipamentos Médicos</title>
 <meta charset = "UTF-8">
-<link rel = "stylesheet" href = "implstyle.css">
+<meta name="viewport" content="width=device-width",initial-scale=1, shrink-to-fit:no>
+
+<link rel = "stylesheet" type="text/css" href = "css/normalize.css">
+<link rel = "stylesheet" type="text/css" href = "css/implstyle.css">
 <meta name = "keywords" content = "Equipamentos Médicos, Suprimentos Hospitalares" />
 <meta name = "description" content = "Importadora e distribuidora de equipamentos e suprimentos médicos e hospitalares" />
+<!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="./bootstrap4/css/bootstrap.min.css">
+
 </head>
 
 <body>
@@ -18,6 +26,7 @@ Data de criação: 5-set-2019
   <div id="topopagina">
     <div id="banner1"></div>
     <div id="telefone"></div>
+<!--
     <ul id="menuh">
       <li><a href="index.html">HOME</a></li>
       <li><a href="index.html">QUEM SOMOS</a></li>
@@ -29,37 +38,54 @@ Data de criação: 5-set-2019
       <li><a href="contato.html">CONTATO</a></li>
     </ul>
   </div>
+-->
+    <ul class="nav nav-pills nav-tabs justify-content-center" id="menuh">
+      <li class="nav-item"><a href="index.html" class="nav-link active">HOME</a></li>
+      <li class="nav-item"><a href="index.html" class="nav-link">QUEM SOMOS</a></li>
+      <li class="nav-item dropdown"><a href="index.html" class="nav-link dropdown-toggle">EQUIPAMENTOS</a></li>
+      <!--  linhas de produtos -->
+      <li class="nav-item"><a href="index.html" class="nav-link">MARCAS</a></li>
+      <li class="nav-item"><a href="index.html" class="nav-link">PROMOÇÕES</a></li>
+      <li class="nav-item"><a href="index.html" class="nav-link">SUPRIMENTOS</a></li>
+      <li class="nav-item"><a href="index.html" class="nav-link">ASSISTÊNCIA TÉCNICA</a></li>
+      <li class="nav-item"><a href="contato.html" class="nav-link">CONTATO</a></li>
+    </ul>
+  </div>
 
   <div class="conteudo">
-    <div class="menulateral">
-      <h4>Departamentos:</h4>
-      <ul>
-        <li><a href="equ_esfigmomanometro.html">Aparelhos de Press&atilde;o (Esfigmoman&ocirc;metros)</a></li>
-        <li><a href="equ_cabos.html">Cabos</a></li>
-        <li><a href="equ_dermatoscopio.html">Dermatosc&oacute;pios</a></li>
-        <li><a href="equ_desfibrilador.html">Desfibriladores</a> </li>
-        <li><a href="equ_eletrocardiografo.html">Eletrocardi&oacute;grafos </a>
-        <li> <a href="equi_especulos.html">Esp&eacute;culos</a></li>
-        <li> <a href="equ_ergometricas.html">Esteiras Ergom&eacute;tricas</a></li>
-        <li> <a href="equ_estetoscopio.html">Estetosc&oacute;pios</a></li>
-        <li> <a href="we_lamp_foco-exame-gs-300-iv.html">Foco para exames</a></li>
-        <li> <a href="equ_fotoforo.html">Fot&oacute;foros</a></li>
-        <li> <a href="equ_gerador-rf.html">Geradores de R&aacute;dio Frequ&ecirc;ncia</a></li>
-        <li> <a href="equ_impressoras.html">Impressoras</a></li>
-        <li> <a href="equ_lanterna.html">Lanternas</a></li>
-        <li> <a href="equ_laringoscopio.html">Laringosc&oacute;pios</a></li>
-        <li> <a href="equ_medidor-de-sinais-vitais.html">Medidor de sinais vitais</a></li>
-        <li> <a href="equ_oftalmoscopio.html">Oftalmosc&oacute;pios</a></li>
-        <li> <a href="equ_otoscopio.html">Otosc&oacute;pios</a></li>
-        <li> <a href="equipamento-oxigenio-de-emergencia.html">Oxig&ecirc;nio de emerg&ecirc;ncia</a></li>
-        <li> <a href="equ_poligrafo.html">Pol&iacute;grafos</a></li>
-        <li> <a href="equ_retinoscopio.html">Retinosc&oacute;pios</a></li>
-        <li> <a href="equ_sis_ergo.html">Sistemas Ergom&eacute;tricos</a></li>
-        <li> <a href="equ_termometros.html">Term&ocirc;metros</a></li>
-        <li> <a href="equ_transformadores.html">Transformadores</a></li>
-        <li> <a href="equ_impressoras.html">Video Printers</a></li>
-      </ul>
-    </div>
+<!-- Este menu poderia ser feito com um "card" do bootstrap -->
+<!--    <nav class="navbar navbar-expand-lg"> -->
+      <div class="menulateral">
+        <h6>Linhas de Produtos:</h6>
+<!--        <button class="navbar-toggler"><span class="navbar-toggler-icon"></span></button> -->
+        <ul>
+          <li><a href="equ_esfigmomanometro.html">Aparelhos de Press&atilde;o (Esfigmoman&ocirc;metros)</a></li>
+          <li><a href="equ_cabos.html">Cabos</a></li>
+          <li><a href="equ_dermatoscopio.html">Dermatosc&oacute;pios</a></li>
+          <li><a href="equ_desfibrilador.html">Desfibriladores</a> </li>
+          <li><a href="equ_eletrocardiografo.html">Eletrocardi&oacute;grafos </a>
+          <li> <a href="equi_especulos.html">Esp&eacute;culos</a></li>
+          <li> <a href="equ_ergometricas.html">Esteiras Ergom&eacute;tricas</a></li>
+          <li> <a href="equ_estetoscopio.html">Estetosc&oacute;pios</a></li>
+          <li> <a href="we_lamp_foco-exame-gs-300-iv.html">Foco para exames</a></li>
+          <li> <a href="equ_fotoforo.html">Fot&oacute;foros</a></li>
+          <li> <a href="equ_gerador-rf.html">Geradores de R&aacute;dio Frequ&ecirc;ncia</a></li>
+          <li> <a href="equ_impressoras.html">Impressoras</a></li>
+          <li> <a href="equ_lanterna.html">Lanternas</a></li>
+          <li> <a href="equ_laringoscopio.html">Laringosc&oacute;pios</a></li>
+          <li> <a href="equ_medidor-de-sinais-vitais.html">Medidor de sinais vitais</a></li>
+          <li> <a href="equ_oftalmoscopio.html">Oftalmosc&oacute;pios</a></li>
+          <li> <a href="equ_otoscopio.html">Otosc&oacute;pios</a></li>
+          <li> <a href="equipamento-oxigenio-de-emergencia.html">Oxig&ecirc;nio de emerg&ecirc;ncia</a></li>
+          <li> <a href="equ_poligrafo.html">Pol&iacute;grafos</a></li>
+          <li> <a href="equ_retinoscopio.html">Retinosc&oacute;pios</a></li>
+          <li> <a href="equ_sis_ergo.html">Sistemas Ergom&eacute;tricos</a></li>
+          <li> <a href="equ_termometros.html">Term&ocirc;metros</a></li>
+          <li> <a href="equ_transformadores.html">Transformadores</a></li>
+          <li> <a href="equ_impressoras.html">Video Printers</a></li>
+        </ul>
+      </div>
+<!--    </nav> -->
 
     <div class="imagem1">
       <img src="imagens/enfermeira.jpg" height="400px" >
@@ -70,7 +96,11 @@ Data de criação: 5-set-2019
     </div>
 
   <div id="rodape">
-    <h5 class="centralizar">Implemed (2019) - Todos os direitos reservados.</h5>
+    <h5 class="centralizar">Implemed(2019) - Todos os direitos reservados.</h5>
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="./bootstrap4/js/bootstrap.min.js"></script>
 
 </body>
