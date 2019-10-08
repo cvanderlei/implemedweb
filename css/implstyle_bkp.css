@@ -2,8 +2,8 @@ html, #home {
   height: 100%;
 }
 body {
-  height: 40%;
-  background: url(../imagens/capa1menor.png)/*,
+  height: 50%;
+  background: url(../imagens/capa1opac.png)/*,
     url(../imagens/capafundo1.png),
     linear-gradient(50deg,#fffc41,#41ff61)*/;
   background-attachment: fixed;
@@ -11,8 +11,8 @@ body {
 .capa {
   text-align: center;
 }
-nav.navbar-light {
-  background: rgb(0, 255, 255, 1);
+nav.navbar-transparente {
+  background: rgb(0, 255, 255, 0.8);
   padding: 0px 0px;
 }
 .navbar-light .navbar-nav .nav-link {
@@ -26,31 +26,23 @@ nav.navbar-light {
   color: rgba(0,0,0,0.5);
   border-color: rgba(255,255,255,0.5);
 }
-#home h3 {
+h1 {
   font-weight: 700;
   letter-spacing: .1em;
-  margin-top: 90px;
+  margin-top: 80px;
   color: red;
 }
 #deslize {
-  background: rgb(0, 255, 255, 1);
-}
-#produtos {
-  background: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-#produtos h4, h5 {
-  color: #b87b0b;
-}
-#produtos p {
-  font-size: .8em;
+  margin-top: 10px;
+  margin-botton: 0px;
+  background: #41ff61;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 
 footer {
     background-color: blue;
     padding: 20px 0px;
-    color: white;
 }
 @media (min-width: 576px) {
   h1 {

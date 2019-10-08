@@ -11,7 +11,7 @@ Data de criação: 5-set-2019
   <meta name="viewport" content="width=device-width",initial-scale=1, shrink-to-fit:no>
   <link rel = "stylesheet" href="bootstrap4/css/bootstrap.min.css">
   <link rel = "stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link rel = "stylesheet" type="text/css" href = "css/implstyle.css">
+  <link rel = "stylesheet" type="text/css" href = "css/implstyle_bkp.css">
   <meta name = "keywords" content = "Equipamentos Médicos, Suprimentos Hospitalares" />
   <meta name = "description" content = "Importadora e distribuidora de equipamentos e suprimentos médicos e hospitalares" />
   <!--[if lt IE 9]>
@@ -22,7 +22,7 @@ Data de criação: 5-set-2019
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-transparente">
       <div class="container">
         <a href="index.html" class="navbar-brand">
           <img src="imagens/logo_tr.png">
@@ -44,20 +44,22 @@ Data de criação: 5-set-2019
   </header>
 
   <section id="home" class="d-flex">
-     <div class="container ">
+     <div class="container align-self-center">
        <div class="row">
          <div class="col-md-12 capa">
-           <h3>Bem vindo a Implemed!</h3>
+           <h1>Bem vindo a Implemed!</h1>
          </div>
        </div>
      </div>
    </section>
 
    <section id="deslize" class="d-flex">
-     <div class="container-fluid">
+     <div class="container">
        <div class="row">
-         <!--<div class="col-md-12 m-auto"> -->
+         <div class="col-sm-12 m-auto">
+
            <div id="carousel-controles" class="carousel slide" data-ride="carousel"> <!-- carousel - início -->
+
              <ol class="carousel-indicators">
                <li class="active" data-target="#carousel-controles" data-slide-to="0"></li>
                <li data-target="#carousel-controles" data-slide-to="1"></li>
@@ -66,23 +68,23 @@ Data de criação: 5-set-2019
 
              <div class="carousel-inner">
                <div class="carousel-item active">
-                 <img src="imagens/promoslide1.png" class="img-fluid">
+                 <img src="imagens/promoslide1.jpg" class="img-fluid" >
                  <div class="carousel-caption">
-                   <h3></h3>
+                   <h3>Realizamos projetos de inovação tecnológica</h3>
                  </div>
                </div>
 
                <div class="carousel-item">
                  <img src="imagens/promoslide2.jpg" class="img-fluid" >
                  <div class="carousel-caption">
-                   <h3></h3>
+                   <h3>Oferecemos suporte completo a implantação e configuração de sistemas</h3>
                  </div>
                </div>
 
                <div class="carousel-item">
-                 <img src="imagens/promoslide3.png" class="img-fluid">
+                 <img src="imagens/promoslide3.jpg" class="img-fluid">
                  <div class="carousel-caption">
-                   <h3></h3>
+                   <h3>Temos serviços de suporte aos usuários</h3>
                  </div>
                </div>
 
@@ -90,86 +92,18 @@ Data de criação: 5-set-2019
              <!-- controles -->
 
              <a href="#carousel-controles"class="carousel-control-prev" data-slide="prev">
-               <i class="fas fa-angle-left fa-3x"></i>
+               <span class="carousel-control-prev-icon"></span>
+               <!--<i class="fas fa-angle-left"></i>-->
              </a>
              <a href="#carousel-controles"class="carousel-control-next" data-slide="next">
+               <!--<span class="carousel-control-next-icon"></span>-->
                <i class="fas fa-angle-right fa-3x"></i>
              </a>
            </div> <!-- carousel -->
+
            </div>
-         <!-- </div> -->
+         </div>
        </div>
-     </div>
-   </section>
-
-   <section id="produtos">
-     <div class="container">
-       <div class="row">
-         <h4>Eletrocardiográfos</h4>
-       </div>
-
-       <div class="row"> <!-- ECG - Slide 1 -->
-         <div class="col-md-2">
-           <img src="imagens/bionet-ecg-cardiocare-2000.jpg" class="img-fluid">
-         </div>
-         <div class="col-md-2">
-           <p>- Custo-benefício e confiabilidde num ECG de 12 canais</br>
-             - Interpretação de ECG baseada no avançado código Minnesota</br>
-             - Atualização gratuita o software via internet</p>
-         </div>
-
-         <div class="col-md-2">
-           <img src="imagens/schiller-ecg-at101.jpg" class="img-fluid">
-         </div>
-         <div class="col-md-2">
-           <p>- O melhor custo benefício com alta tecnologia em equipamentos de ECG AT-101.</br>
-             - Pronto para trabalho em rede com extensão XML</br>
-             - Possibilidade de transferência de dados para o Sistema de Gerenciamento de Dados SCHILLER SEMA-200</p>
-         </div>
-
-         <div class="col-md-2">
-           <img src="imagens/bionet-ecg-cardiotouch-3000.jpg" class="img-fluid">
-         </div>
-         <div class="col-md-2">
-           <p>- Interpretação de ECG baseada no avançado código Minnesota </br>
-             - Atualização gratuita o software via internet</br>
-             - Memória para 120 pacientes</br>
-             - Visualização do monitor em tempo real</p>
-         </div>
-       </div> <!-- ECG - Slide 1 FIM-->
-
-       <div class="row"> <!-- ECG - Slide 2 -->
-         <div class="col-md-2">
-           <img src="imagens/bionet-ecg-cardiotouch-3000.jpg" class="img-fluid">
-         </div>
-
-         <div class="col-md-2">
-           <p>- Interpretação de ECG baseada no avançado código Minnesota </br>
-             - Atualização gratuita o software via internet</br>
-             - Memória para 120 pacientes</br>
-             - Visualização do monitor em tempo real</p>
-         </div>
-
-         <div class="col-md-2">
-           <img src="imagens/bionet-ecg-cardiocare-2000.jpg" class="img-fluid">
-         </div>
-         <div class="col-md-2">
-           <p>- Custo-benefício e confiabilidde num ECG de 12 canais</br>
-             - Interpretação de ECG baseada no avançado código Minnesota</br>
-             - Atualização gratuita o software via internet</p>
-         </div>
-
-         <div class="col-md-2">
-           <img src="imagens/schiller-ecg-at101.jpg" class="img-fluid">
-         </div>
-         <div class="col-md-2">
-           <p>- O melhor custo benefício com alta tecnologia em equipamentos de ECG AT-101.</br>
-             - Pronto para trabalho em rede com extensão XML</br>
-             - Possibilidade de transferência de dados para o Sistema de Gerenciamento de Dados SCHILLER SEMA-200</p>
-         </div>
-
-       </div> <!-- ECG - Slide 2 FIM-->
-
      </div>
    </section>
 
