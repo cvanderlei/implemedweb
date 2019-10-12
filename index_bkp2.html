@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!--
-Autor: Celso Arruda Vanderlei - Lankaware Agência de Informática
+Autor: Celso Arruda Vanderlei
 Data de criação: 5-set-2019
-Última atualização: 11-oct-2019
+Última atualização: 26-set-2019
 -->
 <html lang="pt-br">
 <head>
@@ -23,7 +23,7 @@ Data de criação: 5-set-2019
 
   <header>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <div class="container-fluid">
+      <div class="container">
         <a href="index.html" class="navbar-brand">
           <img src="imagens/logo_tr.png">
         </a>
@@ -33,36 +33,8 @@ Data de criação: 5-set-2019
         </button>
         <div class="collapse navbar-collapse" id="nav-principal">
           <ul class="navbar-nav ml-auto justify-content-center ">
-            <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
-            <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Equipamentos</a>
-              <div class="dropdown-menu bg-primary">
-                <a href="eq_esfigmomanometro.html" class="dropdown-item text-light reduz">Aparelhos de pressão</a>
-                <a href="equ_cabos.html" class="dropdown-item text-light reduz">Cabos</a>
-                <a href="equ_dermatoscopio.html" class="dropdown-item text-light reduz">Dermatosc&oacute;pios</a>
-                <a href="equ_desfibrilador.html" class="dropdown-item text-light reduz">Desfibriladores</a>
-                <a href="equ_eletrocardiografo.html" class="dropdown-item text-light reduz">Eletrocardi&oacute;grafos </a>
-                <a href="equi_especulos.html" class="dropdown-item text-light reduz">Esp&eacute;culos</a>
-                <a href="equ_ergometricas.html" class="dropdown-item text-light reduz">Esteiras Ergom&eacute;tricas</a>
-                <a href="equ_estetoscopio.html" class="dropdown-item text-light reduz">Estetosc&oacute;pios</a>
-                <a href="we_lamp_foco-exame-gs-300-iv.html" class="dropdown-item text-light reduz">Foco para exames</a>
-                <a href="equ_fotoforo.html" class="dropdown-item text-light reduz">Fot&oacute;foros</a>
-                <a href="equ_gerador-rf.html" class="dropdown-item text-light reduz">Geradores de R&aacute;dio Frequ&ecirc;ncia</a>
-                <a href="equ_impressoras.html" class="dropdown-item text-light reduz">Impressoras</a>
-                <a href="equ_lanterna.html" class="dropdown-item text-light reduz">Lanternas</a>
-                <a href="equ_laringoscopio.html" class="dropdown-item text-light reduz">Laringosc&oacute;pios</a>
-                <a href="equ_medidor-de-sinais-vitais.html" class="dropdown-item text-light reduz">Medidor de sinais vitais</a>
-                <a href="equ_oftalmoscopio.html" class="dropdown-item text-light reduz">Oftalmosc&oacute;pios</a>
-                <a href="equ_otoscopio.html" class="dropdown-item text-light reduz">Otosc&oacute;pios</a>
-                <a href="equipamento-oxigenio-de-emergencia.html" class="dropdown-item text-light reduz">Oxig&ecirc;nio de emerg&ecirc;ncia</a>
-                <a href="equ_poligrafo.html" class="dropdown-item text-light reduz">Pol&iacute;grafos</a>
-                <a href="equ_retinoscopio.html" class="dropdown-item text-light reduz">Retinosc&oacute;pios</a>
-                <a href="equ_sis_ergo.html" class="dropdown-item text-light reduz">Sistemas Ergom&eacute;tricos</a>
-                <a href="equ_termometros.html" class="dropdown-item text-light reduz">Term&ocirc;metros</a>
-                <a href="equ_transformadores.html" class="dropdown-item text-light reduz">Transformadores</a>
-                <a href="equ_impressoras.html" class="dropdown-item text-light reduz">Video Printers</a>
-
-              </div>
-            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Equipamentos</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Suprimentos</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Assitência Técnica</a></li>
           </ul>
@@ -72,19 +44,19 @@ Data de criação: 5-set-2019
   </header>
 
   <section id="home" class="d-flex">
-     <div class="container align-self-center">
+     <div class="container ">
        <div class="row">
          <div class="col-md-12 capa">
-           <h1></h1>
+           <!--<h3>Bem vindo a Implemed!</h3>-->
          </div>
        </div>
      </div>
    </section>
 
-   <section id="deslize" >
-     <div class="container-fluid separa1">
+   <section id="deslize" class="d-flex">
+     <div class="container-fluid">
        <div class="row">
-         <div class="mx-auto">
+         <!--<div class="col-md-12 m-auto"> -->
            <div id="carousel-controles" class="carousel slide" data-ride="carousel"> <!-- carousel - início -->
              <ol class="carousel-indicators">
                <li class="active" data-target="#carousel-controles" data-slide-to="0"></li>
@@ -99,12 +71,14 @@ Data de criação: 5-set-2019
                    <h3></h3>
                  </div>
                </div>
+
                <div class="carousel-item">
-                 <img src="imagens/promoslide2.png" class="img-fluid" >
+                 <img src="imagens/promoslide2.jpg" class="img-fluid" >
                  <div class="carousel-caption">
                    <h3></h3>
                  </div>
                </div>
+
                <div class="carousel-item">
                  <img src="imagens/promoslide3.png" class="img-fluid">
                  <div class="carousel-caption">
@@ -121,32 +95,34 @@ Data de criação: 5-set-2019
              <a href="#carousel-controles"class="carousel-control-next" data-slide="next">
                <i class="fas fa-angle-right fa-3x"></i>
              </a>
-           </div> <!-- carousel controles -->
-         </div> <!-- col-md-12 -->
-         </div>
+           </div> <!-- carousel -->
+           </div>
+         <!-- </div> -->
        </div>
      </div>
+   </section>
 
-     <div class="container-fluid separa2"> <!-- Container Eletrocardiógrafo -->
+   <section id="produtos">
+     <div class="container"> <!-- Container Eletrocardiógrafo -->
        <div class="row" >
          <h4>Eletrocardiógrafos</h4>
        </div>
 
-       <div id="carousel-prod1" class="carousel slide" data-ride="carousel" data-interval="4500"> <!-- carousel - início -->
+       <div id="carousel-prod1" class="carousel slide" data-ride="carousel" data-interval="3000"> <!-- carousel - início -->
           <ol class="carousel-indicators">
             <li data-target="#carousel-prod1" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-prod1" data-slide-to="1"></li>
             <!--<li data-target="#carousel-prod1" data-slide-to="2"></li> -->
           </ol>
 
-          <div class="row">
+          <div class="row" id="produto-linha">
             <!-- ECG - Slide 1 -->
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row"> <!-- linha do item do carrosel -->
                   <div class="col-md-2">
                     <img src="imagens/bionet-ecg-cardiocare-2000.jpg" class="img-fluid">
-                    <!--<h7>ECG CardioCare 2000</h7>-->
+                    <h7>ECG CardioCare 2000</h7>
                   </div>
                   <div class="col-md-2">
                     <p>- Custo-benefício e confiabilidde num ECG de 12 canais</br>
@@ -155,6 +131,7 @@ Data de criação: 5-set-2019
                   </div>
                   <div class="col-md-2">
                     <img src="imagens/schiller-ecg-at101.jpg" class="img-fluid">
+                    <h7>Eletrocardiógrafo AT-101</h7>
                   </div>
                   <div class="col-md-2">
                     <p>- O melhor custo benefício com alta tecnologia em equipamentos de ECG AT-101.</br>
@@ -163,6 +140,7 @@ Data de criação: 5-set-2019
                   </div>
                   <div class="col-md-2">
                     <img src="imagens/bionet-ecg-cardiotouch-3000.jpg" class="img-fluid">
+                    <h7>ECG CardioTouch 3000</h7>
                   </div>
                   <div class="col-md-2">
                     <p>- Interpretação de ECG baseada no avançado código Minnesota </br>
@@ -170,16 +148,6 @@ Data de criação: 5-set-2019
                        - Memória para 120 pacientes</br>
                        - Visualização do monitor em tempo real</p>
                   </div>
-                  <div class="col-md-4">
-                    <h7>ECG CardioCare 2000</h7>
-                  </div>
-                  <div class="col-md-4">
-                    <h7>ECG AT-101</h7>
-                  </div>
-                  <div class="col-md-4">
-                    <h7>ECG CardioTouch 3000</h7>
-                  </div>
-
                 </div> <!-- linha do item do carousel - fim-->
               </div> <!-- carousel-item active - fim -->
               <!-- ECG - Slide 1 FIM-->
@@ -189,6 +157,7 @@ Data de criação: 5-set-2019
                 <div class="row"> <!-- linha do item do carrosel -->
                   <div class="col-md-2">
                     <img src="imagens/sc_desf_cardovit1_pq.jpg" class="img-fluid">
+                    <h7>Eletrocardiógrafo AT-1</h7>
                   </div>
 
                   <div class="col-md-2">
@@ -198,6 +167,7 @@ Data de criação: 5-set-2019
                   </div>
                   <div class="col-md-2">
                      <img src="imagens/equ_eletr_c10-teb.jpg" class="img-fluid">
+                     <h7>Eletrocardiógrafo C10</h7>
                   </div>
                   <div class="col-md-2">
                      <p>- Equipamento 100% nacional com Tecnologia DSP – Processador Digital de Sinais. </br>
@@ -207,116 +177,108 @@ Data de criação: 5-set-2019
 
                   <div class="col-md-2">
                      <img src="imagens/teb-c30.jpg" class="img-fluid">
+                     <h7>Eletrocardiógrafo C30</h7>
                   </div>
                   <div class="col-md-2">
                      <p>- Equipamento 100% nacional com Tecnologia DSP – Processador Digital de Sinais.</br>
                        - Impressão em papel termoreativo. </br>
                        - Realiza registros automáticos ou manuais.</p>
                   </div>
-                  <div class="col-md-4">
-                    <h7>ECG AT-1</h7>
-                  </div>
-                  <div class="col-md-4">
-                    <h7>ECG C10</h7>
-                  </div>
-                  <div class="col-md-4">
-                    <h7>ECG C30</h7>
-                  </div>
-
                 </div> <!-- linha do item do carrosel-->
               </div> <!-- carousel-item active -->
               <!-- ECG - Slide 2 FIM-->
+
             </div> <!-- caroulsel-inner -->
+
           </div> <!-- row do carousel -->
+          <a href="#carousel-prod1" class="carousel-control-prev" data-slide="prev">
+            <i class="fas fa-angle-left fa-3x"></i>
+          </a>
+          <a href="#carousel-prod1" class="carousel-control-next" data-slide="next">
+            <i class="fas fa-angle-right fa-3x"></i>
+          </a>
        </div> <!-- carousel -->
      </div> <!-- Container Eletrocardiógrafo -->
 
-     <div class="container-fluid separa3"> <!-- Container Impressoras -->
+     <div class="container"> <!-- Container Impressoras -->
        <div class="row" >
          <h4>Impressoras</h4>
        </div>
 
-       <div id="carousel-prod2" class="carousel slide" data-ride="carousel" data-interval="4000"> <!-- carousel - início -->
+       <div id="carousel-prod2" class="carousel slide" data-ride="carousel" data-interval="3000"> <!-- carousel - início -->
           <ol class="carousel-indicators">
             <li data-target="#carousel-prod2" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-prod2" data-slide-to="1"></li>
             <!--<li data-target="#carousel-prod1" data-slide-to="2"></li> -->
           </ol>
 
-          <div class="row" >
-            <!-- Impressoras - Slide 1 -->
+          <div class="row" id="produto-linha">
+            <!-- ECG - Slide 1 -->
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row"> <!-- linha do item do carrosel -->
                   <div class="col-md-2">
                     <img src="imagens/up25md.jpg" class="img-fluid">
+                    <h7>A6 Color Video Printer UP25MD</h7>
                   </div>
                   <div class="col-md-2">
                     <p>Impressora medica de alta velocidade, compacta, que produz impressões de excelente qualidade, duráveis, com 423 dpi em menos de 20 segundos e que é facilmente integrada a outros equipamentos de vídeo.</p>
                   </div>
                   <div class="col-md-2">
-                    <img src="imagens/upd25md.jpg" class="img-fluid">
+                    <img src="imagens/schiller-ecg-at101.jpg" class="img-fluid">
+                    <h7>Eletrocardiógrafo AT-101</h7>
                   </div>
                   <div class="col-md-2">
-                    <p>A impressora colorida digital UP-D25MD é otimizada para aplicações em ultranografia, endoscopia, e cardiologia. A nova UP-D25MD substitui a UP-D23MD em um gabinete menor e uma série de recursos avançados.</p>
+                    <p>- O melhor custo benefício com alta tecnologia em equipamentos de ECG AT-101.</br>
+                       - Pronto para trabalho em rede com extensão XML</br>
+                       - Transferência de dados para o Sistema SCHILLER SEMA-200</p>
                   </div>
                   <div class="col-md-2">
-                    <img src="imagens/so_impr_UP55MD_pq.jpg" class="img-fluid">
+                    <img src="imagens/bionet-ecg-cardiotouch-3000.jpg" class="img-fluid">
+                    <h7>ECG CardioTouch 3000</h7>
                   </div>
                   <div class="col-md-2">
-                    <p>A UP-55MD é uma impressora de vídeo colorida perfeita para aplicações médicas, como endoscopia de alta qualidade e sistemas de ultra-som.</p>
+                    <p>- Interpretação de ECG baseada no avançado código Minnesota </br>
+                       - Atualização gratuita o software via internet</br>
+                       - Memória para 120 pacientes</br>
+                       - Visualização do monitor em tempo real</p>
                   </div>
-
-                  <div class="col-md-4">
-                    <h7>A6 Color Video Printer UP25MD</h7>
-                  </div>
-                  <div class="col-md-4">
-                    <h7>Digital A6 Color Printer UPD25MD</h7>
-                  </div>
-                  <div class="col-md-4">
-                    <h7>Video Printer UP-55MD</h7>
-                  </div>
-
                 </div> <!-- linha do item do carousel - fim-->
               </div> <!-- carousel-item active - fim -->
-              <!-- Impressoras - Slide 1 FIM-->
+              <!-- ECG - Slide 1 FIM-->
 
-              <!-- Impressoras - Slide 2 -->
+              <!-- ECG - Slide 2 -->
               <div class="carousel-item">
                 <div class="row"> <!-- linha do item do carrosel -->
                   <div class="col-md-2">
-                    <img src="imagens/so_impr_UPD55_pq.jpg" class="img-fluid">
+                    <img src="imagens/sc_desf_cardovit1_pq.jpg" class="img-fluid">
+                    <h7>Eletrocardiógrafo AT-1</h7>
                   </div>
 
                   <div class="col-md-2">
-                     <p>A impressora Colorida Digital UP-D55, combina perfeitamente alta qualidade com imagens coloridas excepcionais no tamanho A5 em aproximadamente 20 segundos.</p>
+                     <p>- Com design compacto, fácil operação e bateria integrada,
+                       o AT-1 é perfeito para todas as aplicações, incluindo use em consultórios,
+                       junto a leitos hospitalares e trabalho de campo ambulatorial.</p>
                   </div>
                   <div class="col-md-2">
-                     <img src="imagens/so_impr_UP897MD_pq.jpg" class="img-fluid">
+                     <img src="imagens/equ_eletr_c10-teb.jpg" class="img-fluid">
+                     <h7>Eletrocardiógrafo C10</h7>
                   </div>
                   <div class="col-md-2">
-                     <p>UP-897MD é uma Impressora compacta, tamanho A6, ideal para aplicações médicas.</br>
-                       Possui alta velocidade de impressão de aproximadamente 2 segundos.</p>
+                     <p>- Equipamento 100% nacional com Tecnologia DSP – Processador Digital de Sinais. </br>
+                       - Impressão em papel termoreativo.</br>
+                       - Realiza registros automáticos ou manuais.</p>
                   </div>
 
                   <div class="col-md-2">
-                     <img src="imagens/sony-video-printer-up-d711md-thumb.jpg" class="img-fluid">
+                     <img src="imagens/teb-c30.jpg" class="img-fluid">
+                     <h7>Eletrocardiógrafo C30</h7>
                   </div>
                   <div class="col-md-2">
-                     <p>Lançamento!</br> Design ultra compacto e leve: 140x70x125mm (LxAxP) e apenas 1 Kg.</br>
-                       A impressora UP-D711MD, combina perfeitamente alta qualidade com imagens excepcionais.</p>
+                     <p>- Equipamento 100% nacional com Tecnologia DSP – Processador Digital de Sinais.</br>
+                       - Impressão em papel termoreativo. </br>
+                       - Realiza registros automáticos ou manuais.</p>
                   </div>
-
-                  <div class="col-md-4">
-                    <h7>Video Printer UP-D55</h7>
-                  </div>
-                  <div class="col-md-4">
-                    <h7>Video Printer UP-897MD</h7>
-                  </div>
-                  <div class="col-md-4">
-                    <h7>Video Printer UP-D711MD</h7>
-                  </div>
-
                 </div> <!-- linha do item do carrosel-->
               </div> <!-- carousel-item active -->
               <!-- ECG - Slide 2 FIM-->
@@ -324,6 +286,13 @@ Data de criação: 5-set-2019
             </div> <!-- caroulsel-inner -->
 
           </div> <!-- row do carousel -->
+          <a href="#carousel-prod1" class="carousel-control-prev" data-slide="prev">
+            <i class="fas fa-angle-left fa-3x"></i>
+          </a>
+          <a href="#carousel-prod1" class="carousel-control-next" data-slide="next">
+            <i class="fas fa-angle-right fa-3x"></i>
+          </a>
+
        </div> <!-- carousel -->
 
      </div> <!-- Container Impressoras -->
@@ -332,26 +301,19 @@ Data de criação: 5-set-2019
 
 
    <footer>
-     <div class="container-fluid">
+     <div class="container">
        <div class="row">
-         <div class="col-md-2">
-           <img src="imagens/logo_tr.png" width="200">
+         <div class="col-md-3">
+           <img src="imagens/logo_invert.png" width="200">
          </div>
          <div class="col-md-3">
-           <i class="far fa-address-book fa-1x"></i> Quem somos</br>
-           <i class="far fa-comment fa-1x"></i> Envie-nos uma mensagem </br>
-           <i class="far fa-envelope fa-1x"></i> implemed@implemed.com.br </br>
-         </div>
-         <div class="col-md-4">
-             <i class="far fa-building fa-1x"></i> Localização:</br>
-             Martin Luther King, 2236 - Vila São Francisco</br>
-             São Paulo - SP - 05352-020
+           Localização
          </div>
          <div class="col-md-3">
-           Redes sociais</br>
-           <i class="fab fa-facebook fa-3x">&nbsp&nbsp</i>
-           <i class="fab fa-twitter fa-3x">&nbsp&nbsp</i>
-           <i class="fab fa-instagram fa-3x"></i>
+           Contatos
+         </div>
+         <div class="col-md-3">
+           Redes sociais
          </div>
        </div>
      </div>

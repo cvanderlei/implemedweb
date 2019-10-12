@@ -2,16 +2,7 @@ html, #home {
   height: 100%;
 }
 body {
-  margin-top: 80px;
-  height: 25%;
-  background: url(../imagens/capa1nova.png) no-repeat/*,
-    url(../imagens/capafundo1.png),
-    linear-gradient(50deg,#fffc41,#8ec0d4)*/;
-  background-color: white /*#8ec0d4;*/
-  /*background-attachment: fixed;*/
-}
-.capa {
-  text-align: center;
+  background-color: white; /*#8ec0d4;*/
 }
 nav.navbar-light {
   background: rgb(0, 255, 255, 1);
@@ -34,57 +25,17 @@ nav.navbar-light {
 .reduz {
   line-height: .8;
 }
-#home h3 {
-  font-weight: 700;
-  letter-spacing: .1em;
+#lista-prods {
   margin-top: 90px;
-  color: red;
-}
-#deslize {
-  background: white /*#8ec0d4*/;
-  margin: 20px 20px;
-  padding: 0px 10px;
-}
-#deslize h3, h4 {
-  color: #b87b0b;
-}
-#deslize h5, h7 {
-  color: #7702ba;
-}
-#deslize p {
-  font-size: .8em;
-}
-.separa1 {
-  padding: 5px 15px;
-  margin:10px 5px;
-  background: white /*#8ec0d4*/;
-}
-.separa2 {
-  padding: 20px 30px;
-  margin: 10px 5px;
-  background: #a4fce6;
-}
-.separa3 {
-  padding: 20px 30px;
-  margin: 10px 5px;
-  background: #96ffc2;
 }
 
-.carousel-indicators li {
-  margin: 0px 10px;
-  background-color: orange;
-  width: 18px;
-  border-radius: 50%;
-}
-#carousel-prod1 .carousel-indicators {
-    bottom: -20px;
-}
 footer {
     background-color: blue;
     padding: 20px 0px;
     color: white;
     line-height: 1.5;
 }
+
 @media (min-width: 576px) {
   h1 {
     font-size: 2.5em;
