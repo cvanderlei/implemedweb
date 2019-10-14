@@ -3,7 +3,7 @@ html, #home {
 }
 body {
   margin-top: 80px;
-  height: 25%;
+  height: 18%;
   background: url(../imagens/capa1nova.png) no-repeat/*,
     url(../imagens/capafundo1.png),
     linear-gradient(50deg,#fffc41,#8ec0d4)*/;
@@ -22,7 +22,7 @@ nav.navbar-light {
   font-weight: bold;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-  color: white;
+  color: red;
 }
 .navbar-light .navbar-nav .nav-link:focus {
   color: green;
@@ -54,15 +54,24 @@ nav.navbar-light {
 #deslize p {
   font-size: .8em;
 }
-.separa1 {
+.separa0 {
   padding: 5px 15px;
   margin:10px 5px;
   background: white /*#8ec0d4*/;
 }
-.separa2 {
+.prod-desc {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.separa1 {
   padding: 20px 30px;
   margin: 10px 5px;
   background: #a4fce6;
+}
+.separa2 {
+  padding: 20px 30px;
+  margin: 10px 5px;
+  background: #ffff5e;
 }
 .separa3 {
   padding: 20px 30px;
