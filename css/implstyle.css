@@ -3,7 +3,7 @@ html, #home {
 }
 body {
   margin-top: 80px;
-  height: 10%;
+  height: 12%;
   background: url(../imagens/capa1nova.png) no-repeat/*,
     url(../imagens/capafundo1.png),
     linear-gradient(50deg,#fffc41,#8ec0d4)*/;
